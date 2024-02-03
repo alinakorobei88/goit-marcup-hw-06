@@ -1247,18 +1247,27 @@ display: block;
         padding: 96px 0;
         margin: 0 auto;
     }
+
+    .container {
+        /*justify-content: space-between;*/
+    }
     
     .foot-container { 
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        width: 768px;
-        gap: 24px;
+        /*width: 768px;*/
+        max-width: 530px;
+        /*gap: 24px;*/
+        gap: 72px 24px;
         margin-left: 108px;
+        margin-right: 120px;
     }
 
     .foot-container-logo {
-        margin-bottom: 0 ;
+        /*margin-bottom: 0 ;*/
+        margin: 0;
+        /*margin-bottom: 72px;*/
     }
     .logo-web {
         display: inline-block;
@@ -1508,3 +1517,39 @@ display: block;
         display: block;
 }
 
+.footer {
+    width: 1158px;
+    background: #2E2F42;
+    padding: 100px 0;
+}
+
+.foot-container {
+    display: flex;
+    margin: 0;
+    align-items: baseline;
+}
+
+.foot-container-logo {
+   /* margin-right: 120px;*/
+    margin-left: 16px;
+    margin-bottom: 72px;
+}
+
+.footer-container {
+    position: relative;
+    display: flex;
+    margin-right: 80px;
+    margin-bottom: 72px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-container-subscribe {
+    position: relative;
+    display: flex;
+}
+}
