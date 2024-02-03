@@ -1372,7 +1372,8 @@ display: block;
 
     .advantages {
         padding: 120px 0 48px 0;
-        display: flex;  
+        display: flex; 
+        width: 100%; 
         }
 
         .advantages-container {
@@ -1518,33 +1519,43 @@ display: block;
 }
 
 .footer {
-    width: 1158px;
+     width: 100%;
     background: #2E2F42;
     padding: 100px 0;
+}
+
+.container {
+    /*max-width: 1158px;*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    /*justify-content: space-between;*/
 }
 
 .foot-container {
     display: flex;
     margin: 0;
     align-items: baseline;
+    flex-wrap: nowrap;
+    gap: 0;
 }
 
 .foot-container-logo {
-   /* margin-right: 120px;*/
+   margin-right: 110px;
     margin-left: 16px;
-    margin-bottom: 72px;
+    /*margin-bottom: 72px;*/
 }
 
 .footer-container {
     position: relative;
     display: flex;
-    margin-right: 80px;
-    margin-bottom: 72px;
+    margin-right: 70px;
+   /* margin-bottom: 72px;*/
 }
 
 .footer-form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 24px;
 }
 
